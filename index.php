@@ -15,5 +15,8 @@
         echo 'Успешно соединились';
         mysql_close($link);
     ?>
+    <h1><?php
+        echo 'go';
+    ?></h1>
 </body>
 </html>
