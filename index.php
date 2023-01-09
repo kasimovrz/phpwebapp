@@ -15,8 +15,8 @@
         echo 'Успешно соединились';
         mysql_close($link);
     ?>
-    <h1><?php
-        echo 'go';
+    <h1>ping <?php
+        echo 'pong';
     ?></h1>
 </body>
 </html>
