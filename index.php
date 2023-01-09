@@ -7,6 +7,9 @@
     <title>2</title>
 </head>
 <body>
+    <h1>ping <?php
+        echo 'pong';
+    ?></h1>
     <?php
         $link = mysql_connect('phpdb.mysql.database.azure.com', 'phpadmin', 'Asdf-1234');
             if (!$link) {
@@ -15,8 +18,6 @@
         echo 'Успешно соединились';
         mysql_close($link);
     ?>
-    <h1>ping <?php
-        echo 'pong';
-    ?></h1>
+    
 </body>
 </html>
