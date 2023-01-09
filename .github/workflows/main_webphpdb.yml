@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'webphpdb'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_006292E8981C4298B9F54428D783E096 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_327694BD244E41AEBA1B6AEFA288E28F }}
           package: .
