@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5</title>
+    <title>7</title>
 </head>
 <body>
     <h1>ping <?php
         echo 'pong';
     ?></h1>
     <?php
-        $link = mysql_connect('phpdb.mysql.database.azure.com', 'phpadmin', 'Asdf-1234', 'mydb');
+        $link = mysql_connect('phpdb.mysql.database.azure.com:3306', 'phpadmin', 'Asdf-1234', 'mydb');
             if ($link) {
                 echo 'Успешно соединились';
             }
